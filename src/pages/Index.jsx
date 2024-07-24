@@ -41,7 +41,7 @@ const Index = () => {
           </CardFooter>
         </Card>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Card>
             <CardHeader>
               <CardTitle>Card 1</CardTitle>
@@ -56,6 +56,14 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p>This is the content for Card 2.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Card 3</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>This is the new card you requested.</p>
             </CardContent>
           </Card>
         </div>
